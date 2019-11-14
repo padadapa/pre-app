@@ -1,12 +1,13 @@
-import React from 'react';
-
-
-function App() {
-  return (
-    <div className="App">
-      <h1>its a test </h1>
-    </div>
-  );
+import React,{Component} from 'react';
+import { Button } from "antd-mobile"
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Button type="primary">primary disabled</Button>
+        <div><h1>test</h1></div>
+      </div>
+    );
+  }
 }
-
-export default App;
+export default App
